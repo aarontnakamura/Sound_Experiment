@@ -38,7 +38,7 @@
         <Param name="color" updates="constant" val="black" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="contrast" updates="constant" val="1" valType="num"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="num"/>
         <Param name="flip" updates="constant" val="None" valType="str"/>
         <Param name="font" updates="constant" val="" valType="str"/>
@@ -55,18 +55,18 @@
         <Param name="stopType" updates="None" val="condition" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="num"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="幸福感の度合いを教えてください &amp;#10;(１＝低い、７＝高い）" valType="str"/>
+        <Param name="text" updates="constant" val="幸福感の度合いを教えてください &amp;#10;(１＝低い、9＝高い）" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
       <RatingScaleComponent name="Happy_rating">
-        <Param name="categoryChoices" updates="constant" val="1,2,3,4,5,6,7" valType="list"/>
+        <Param name="categoryChoices" updates="constant" val="1,2,3,4,5,6,7,8,9" valType="list"/>
         <Param name="customize_everything" updates="constant" val="" valType="code"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
         <Param name="disappear" updates="constant" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="num"/>
         <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
-        <Param name="high" updates="constant" val="7" valType="num"/>
+        <Param name="high" updates="constant" val="9" valType="num"/>
         <Param name="labels" updates="constant" val="" valType="list"/>
         <Param name="low" updates="constant" val="1" valType="num"/>
         <Param name="marker" updates="constant" val="triangle" valType="str"/>
@@ -113,7 +113,7 @@
         <Param name="color" updates="constant" val="black" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="contrast" updates="constant" val="1" valType="num"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="num"/>
         <Param name="flip" updates="constant" val="None" valType="str"/>
         <Param name="font" updates="constant" val="" valType="str"/>
@@ -130,18 +130,18 @@
         <Param name="stopType" updates="None" val="condition" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="num"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="悲壮感の度合いを教えてください &amp;#10;(１＝低い、７＝高い）" valType="str"/>
+        <Param name="text" updates="constant" val="悲壮感の度合いを教えてください &amp;#10;(１＝低い、9＝高い）" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
       <RatingScaleComponent name="Sad_rating">
-        <Param name="categoryChoices" updates="constant" val="1,2,3,4,5,6,7" valType="list"/>
+        <Param name="categoryChoices" updates="constant" val="1,2,3,4,5,6,7,8,9" valType="list"/>
         <Param name="customize_everything" updates="constant" val="" valType="code"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
         <Param name="disappear" updates="constant" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="num"/>
         <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
-        <Param name="high" updates="constant" val="7" valType="num"/>
+        <Param name="high" updates="constant" val="9" valType="num"/>
         <Param name="labels" updates="constant" val="" valType="list"/>
         <Param name="low" updates="constant" val="1" valType="num"/>
         <Param name="marker" updates="constant" val="triangle" valType="str"/>
@@ -171,7 +171,7 @@
         <Param name="color" updates="constant" val="black" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="contrast" updates="constant" val="1" valType="num"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="num"/>
         <Param name="flip" updates="constant" val="None" valType="str"/>
         <Param name="font" updates="constant" val="" valType="str"/>
@@ -188,18 +188,18 @@
         <Param name="stopType" updates="None" val="condition" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="num"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="喜楽感の度合いを教えてください &amp;#10;(１＝低い、７＝高い）" valType="str"/>
+        <Param name="text" updates="constant" val="喜楽感の度合いを教えてください &amp;#10;(１＝低い、9＝高い）" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
       <RatingScaleComponent name="Joy_rating">
-        <Param name="categoryChoices" updates="constant" val="1,2,3,4,5,6,7" valType="list"/>
+        <Param name="categoryChoices" updates="constant" val="1,2,3,4,5,6,7,8,9" valType="list"/>
         <Param name="customize_everything" updates="constant" val="" valType="code"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
         <Param name="disappear" updates="constant" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="num"/>
         <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
-        <Param name="high" updates="constant" val="7" valType="num"/>
+        <Param name="high" updates="constant" val="9" valType="num"/>
         <Param name="labels" updates="constant" val="" valType="list"/>
         <Param name="low" updates="constant" val="1" valType="num"/>
         <Param name="marker" updates="constant" val="triangle" valType="str"/>
@@ -243,6 +243,64 @@
         <Param name="name" updates="None" val="code" valType="code"/>
       </CodeComponent>
     </Routine>
+    <Routine name="question">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="black" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$text_box" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <RatingScaleComponent name="rating">
+        <Param name="categoryChoices" updates="constant" val="1,2,3,4,5,6,7,8,9" valType="list"/>
+        <Param name="customize_everything" updates="constant" val="" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disappear" updates="constant" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="high" updates="constant" val="9" valType="num"/>
+        <Param name="labels" updates="constant" val="" valType="list"/>
+        <Param name="low" updates="constant" val="1" valType="num"/>
+        <Param name="marker" updates="constant" val="triangle" valType="str"/>
+        <Param name="markerStart" updates="constant" val="" valType="num"/>
+        <Param name="name" updates="None" val="rating" valType="code"/>
+        <Param name="pos" updates="constant" val="0, -0.4" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="scaleDescription" updates="constant" val="" valType="str"/>
+        <Param name="showAccept" updates="constant" val="True" valType="bool"/>
+        <Param name="singleClick" updates="constant" val="False" valType="bool"/>
+        <Param name="size" updates="constant" val="1.0" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="num"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="tickHeight" updates="constant" val="" valType="num"/>
+        <Param name="visualAnalogScale" updates="constant" val="False" valType="bool"/>
+      </RatingScaleComponent>
+    </Routine>
   </Routines>
   <Flow>
     <LoopInitiator loopType="TrialHandler" name="question_loop">
@@ -259,19 +317,32 @@
     <Routine name="Sound1"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'text_box': 'sad.txt'}, {'text_box': 'happy.txt'}, {'text_box': 'joy.txt'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Question-sets_loop.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="fullRandom" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="question"/>
+    <LoopTerminator name="trials"/>
+    <LoopInitiator loopType="TrialHandler" name="inner_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
       <Param name="conditionsFile" updates="None" val="" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="num"/>
-      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="name" updates="None" val="inner_loop" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
     <Routine name="Question1_Happy"/>
     <Routine name="Querstion2_Sad"/>
     <Routine name="Queastion3_Joy"/>
-    <LoopTerminator name="trials"/>
+    <LoopTerminator name="inner_loop"/>
     <LoopTerminator name="question_loop"/>
   </Flow>
 </PsychoPy2experiment>
